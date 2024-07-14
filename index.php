@@ -55,7 +55,7 @@
                 <div class="text-white">•</div>
                 <div class="marquee-box">CE</div>
                 <div class="text-white">•</div>
-                <div class="marquee-box">KOSHER< HALAL in best price/div>
+                <div class="marquee-box">KOSHER< HALAL in best price</div>
             </div>
 
         </marquee>
