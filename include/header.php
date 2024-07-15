@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/animate/animate.min.css">
   <link rel="stylesheet" href="assets/css/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/odometer/odometer.min.css">
   <!-- Icons -->
   <link rel="stylesheet" href="assets/css/fonts/remixicon.css">
   <!-- Custom Style File -->
@@ -21,23 +22,24 @@
   <!-- Header Start  -->
   <div class="bg-dark">
     <div class="container bg-dark">
-      <div class="top-menu-bar py-1 d-flex align-item-center justify-content-between ">
+      <div class="top-menu-bar py-2 d-flex align-item-center justify-content-between ">
         <div>
           <ul>
             <li class=""><a href="tel:+917701949495"><span><i class="ri-phone-line"></i></span> <span>+91-7701949495</span></a></li>
             <li class=""><a href="mailto:info.rdmcertification@gmail.com"><span><i class="ri-mail-line"></i></span> <span>info.rdmcertification@gmail.com</span></a></li>
           </ul>
         </div>
-        <!-- <div class="login-menu">
-          <ul>
-            <li>
-              <a href="login.php" class="link d-flex align-items-center">Login <i class=" ps-1 ri-arrow-right-line"></i></a>
-            </li>
-            <li>
-              <a href="signup.php" class="link d-flex align-items-center">Sign Up <i class="ps-1 ri-arrow-right-line"></i></a>
+        <div class=" d-flex align-items-center justify-content-end flex-wrap">
+          <h5 class="text-white mb-0 ">Follow us:</h5>
+        <ul class="ps-3">
+            <li><a href="https://www.facebook.com/rdmcertification/" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="https://www.instagram.com/rdmcertification/" target="_blank"><i class="ri-instagram-line"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/rdm-certification-services-91ab721a2/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+            <li><a href="https://x.com/i/flow/login?redirect_after_login=%2Fservicerdm" target="_blank" class="pe-0"><i class="ri-twitter-x-fill"></i></a></li>
+          
             </li>
           </ul>
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
@@ -51,10 +53,8 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-              
+              <a class="nav-link" href="#">Home</a>              
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="franchise.php">About Us</a>
             </li>
@@ -99,41 +99,32 @@
         <div class="mobile-menu-wrap">
           <ul class="mobile-menu-list">
             <li><a href="./" class="menu-link">Home</a></li>
-            <li>
-              <a role="button" class="menu-link moblie-dropdwon">About Us <i class="ri-arrow-down-s-line"></i></a>
+     
+            <li><a href="franchise.php" class="menu-link">About Us</a></li>
+            <li><a role="button" class="menu-link moblie-dropdwon">Services <i class="ri-arrow-down-s-line"></i></a>
               <div class="dropdown-mb-menu">
                 <ul>
-                  <li><a href="about.php">Company</a></li>
-                  <li><a href="gallery.php">Gallery</a></li>               
-                  <li><a href="careers.php">Careers</a></li>
+                  <li><a href="#">ISO Certification</a></li>
+                  <li><a href="#">It Services</a></li>
                 </ul>
               </div>
             </li>
-            <li><a href="franchise.php" class="menu-link">Franchise</a></li>
-            <li><a role="button" class="menu-link moblie-dropdwon">Courses <i class="ri-arrow-down-s-line"></i></a>
-              <div class="dropdown-mb-menu">
-                <ul>
-                  <li><a href="offline-courses.php">Offline Courses</a></li>
-                  <li><a href="online-courses.php">Online Coueses</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="e-books.php" class="menu-link">E-books</a></li>
-            <li><a href="" class="menu-link moblie-dropdwon">Analysis <i class="ri-arrow-down-s-line"></i></a>
+           
+            <li><a role="button" class="menu-link moblie-dropdwon">Download <i class="ri-arrow-down-s-line"></i></a>
             <div class="dropdown-mb-menu">
-                <ul>
-                  <li><a href="market-primer.php">Market Primer</a></li>
-                  <li><a href="currency-report.php">Currency Report</a></li>
+            <ul>
+                <li><a href="">Rules for Multi-site Organisation</a></li>
+                <li><a href="">Certification Agreement Rules</a></li>
+                <li><a href="">Logo Guidleines</a></li>
+                <li><a href="">Quotation Form</a></li>
                 </ul>
               </div>
           </li>
-            <li><a href="blog.php" class="menu-link">Blog</a></li>
-            <li><a href="contact.php" class="menu-link">Contact</a></li>
+            <li><a href="#" class="menu-link">Online Application</a></li>
+            <li><a href="contact.php" class="menu-link">Career</a></li>
+            <li><a href="contact.php" class="menu-link">Contact Us</a></li>
           </ul>
-          <div class="login-btn">
-            <a href="login.php" class="theme-btn">Login <i class="ri-arrow-right-line"></i></a>
-            <a href="signup.php" class="theme-btn">Sign Up <i class="ri-arrow-right-line"></i></a>
-          </div>
+
         </div>
       </div>
     </div>

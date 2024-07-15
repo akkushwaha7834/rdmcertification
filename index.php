@@ -8,8 +8,8 @@
                 <div class="banner-caption text-center">
                     <h1 id="banner-head" class=""></h1>
                     <p class="wow fadeInUp mb-5" data-wow-delay="0.4s">Lorem ipsum dolor sit amet consectetur
-                        adipisicing
-                        elit. Natus nihil architecto quia sit neque veniam illum, voluptates beatae amet doloribus.</p>
+                        adipisicing elit. Natus nihil architecto quia sit neque veniam illum, voluptates beatae amet
+                        doloribus.</p>
                     <a href="" class="default-btn wow fadeInUp" data-wow-delay="0.5s">Read More <i
                             class="ri-arrow-right-line"></i></a>
                 </div>
@@ -22,7 +22,8 @@
         <marquee behavior="" direction="" onmouseover="stop()" onmouseout="start()">
             <div class="d-flex gap-3 align-items-center">
                 <div>
-                    <p class="mb-0 fw-semibold text-white">Research & Development Management Certification Services provide all
+                    <p class="mb-0 fw-semibold text-white">Research & Development Management Certification Services
+                        provide all
                         certificate – </p>
                 </div>
                 <div class="marquee-box">ISO 9001</div>
@@ -56,7 +57,7 @@
                 <div class="marquee-box">CE</div>
                 <div class="text-white">•</div>
                 <div class="marquee-box">KOSHER< HALAL in best price</div>
-            </div>
+                </div>
 
         </marquee>
     </div>
@@ -64,7 +65,7 @@
 
 <section class="section-space bg-image2" style="background-image:url('assets/images/bgg.png')">
     <div class="container position-relative z-1">
-        <div class="row section-space pt-0">
+        <div class="row g-4 section-space pt-0">
             <div class="col-md-6 text-center"><img src="assets/images/aboutus.png" alt="" class="w-75"></div>
             <div class="col-md-6">
                 <h3>About Us</h3>
@@ -82,9 +83,9 @@
                 <div class="boxes-wrap">
                     <img src="assets/images/promotes2.png" alt="" class="mb-4">
                     <h3 class="">Promotes best practices</h3>
-                    <p>ISO and other standards give you access to internationally recognized best practices across your
-                        business. Standards exist for everything from quality management to environmental performance,
-                        information security, food safety, risk management, and health and safety.</p>
+                    <p>IT services refers to the application of business and technical expertise to enable organizations
+                        in the creation, management and optimization of or access to information and business processes.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
@@ -141,8 +142,8 @@
                                                 services has also grown and we now offer assessment of management,
                                                 Environment, and Health safety management systems in most industry
                                                 sectors.</p>
-                                                <a href="" class="btn-round mt-4"> Read More <i
-                                                class="ri-arrow-right-line"></i> </a>
+                                            <a href="" class="btn-round mt-4"> Read More <i
+                                                    class="ri-arrow-right-line"></i> </a>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 px-0">
@@ -162,8 +163,8 @@
                                                 services has also grown and we now offer assessment of management,
                                                 Environment, and Health safety management systems in most industry
                                                 sectors.</p>
-                                                <a href="" class="btn-round "> Read More <i
-                                                class="ri-arrow-right-line"></i> </a>
+                                            <a href="" class="btn-round "> Read More <i class="ri-arrow-right-line"></i>
+                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 px-0">
@@ -182,5 +183,477 @@
 
     </div>
 </section>
-<section class="section-space"></section>
+<section class="clients-sec section-space">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-10 text-center">
+                <h3 class="text-primary">Our Clients</h3>
+                <h2 class="mb-4 text-dark h1 mb-5">Lorem ipsum dolor sit amet</h2>
+            </div>
+        </div>
+    </div>
+    <div class="swiper client-slider py-3">
+        <div class="swiper-wrapper gap-4 ">
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c11.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c12.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c13.png" alt="">
+                    </figure>
+                </div>
+            </div>
+           
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c15.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c16.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c17.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c18.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c10.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c9.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c7.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c6.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c4.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c3_.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c2_.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <figure>
+                        <img src="assets/images/clients-logo/c1.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/blueboyd.jpg" alt="">
+                </figure>
+            </div>
+            </div>
+            <div class="swiper-slide">
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/Bantia-logo_White_1_215x@2x.jpg" alt="">
+                </figure>
+            </div>
+            </div>
+            <div class="swiper-slide">
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/552.jpg" alt="">
+                </figure>
+            </div>
+            </div>
+            <div class="swiper-slide">
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/33.jpg" alt="">
+                </figure>
+            </div>
+            </div>
+            <div class="swiper-slide">
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/22.jpg" alt="">
+                </figure>
+            </div>
+            </div>
+            <div class="swiper-slide"></div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/11.jpg" alt="">
+                </figure>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- <marquee behavior="" direction="right" onmouseover="stop()" onmouseout="start()" >
+        <div class="d-flex gap-5 align-items-center">
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c11.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c12.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c13.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/logo_2_0_0_1.png" alt="" width="77px" >
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c15.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c16.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c17.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c18.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c10.png" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c9.png" alt="">
+                </figure>
+            </div>
+       
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c7.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c6.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c5.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c4.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c3_.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c2_.jpg" alt="">
+                </figure>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/c1.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/blueboyd.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/Bantia-logo_White_1_215x@2x.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/552.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/33.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/22.jpg" alt="">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="assets/images/clients-logo/11.jpg" alt="">
+                </figure>
+            </div>
+
+    </marquee> -->
+
+</section>
+<section class="counter-area bg-image section-space" style="background-image:url('assets/images/our-case-bg.jpg')">
+    <div class="container py-5">
+
+        <div class="row g-4 text-center">
+            <div class="col-lg-3 col-sm-6 ">
+                <div class="single-counter">
+                    <div class="count-title">
+                        <h2 class="text-white">
+                            <span class="odometer odometer-auto-theme" data-count="1200">
+                                <div class="odometer-inside">
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">1</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">2</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">0</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">0</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </span>
+                            <span class="target">+</span>
+                        </h2>
+                        <p class="mb-0 text-white">Certificates</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 ">
+                <div class="single-counter">
+                    <div class="count-title">
+                        <h2 class="text-white">
+                            <span class="odometer odometer-auto-theme" data-count="200">
+                                <div class="odometer-inside">
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">2</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">0</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">0</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </span>
+                            <span class="target text-white">+</span>
+                        </h2>
+                        <p class="mb-0 text-white">Satisfied Clients</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 ">
+                <div class="single-counter">
+                    <div class="count-title">
+                        <h2 class="text-white">
+                            <span class="odometer odometer-auto-theme" data-count="50">
+                                <div class="odometer-inside">
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">5</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">0</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+
+                                </div>
+                            </span>
+                            <span class="target">+</span>
+                        </h2>
+                        <p class="mb-0 text-white">Products & Service</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 ">
+                <div class="single-counter">
+                    <div class="count-title">
+                        <h2 class="text-white">
+                            <span class="odometer odometer-auto-theme" data-count="450">
+                                <div class="odometer-inside">
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">4</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">5</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">0</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </span>
+                            <span class="target">+</span>
+                        </h2>
+                        <p class="mb-0 text-white">Cup Of Coffees</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include ('include/footer.php'); ?>
