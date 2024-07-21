@@ -11,7 +11,7 @@
       i++;
       setTimeout(typeWriter, speed);
     }
-  }
+  };
 
   document.addEventListener("DOMContentLoaded", (event) => {
     typeWriter();
@@ -54,11 +54,11 @@
     },
   });
   //client Slider
-  //Video Slider
+  
   const swiper2 = new Swiper(".client-slider", {
     spaceBetween: 50,
     slidesPerView: 'auto',    
-    speed:1500,
+    speed:2500,
     spaceBetween: 10,
     loop:true,
     autoplay: {
@@ -67,7 +67,20 @@
     },
 
   });
-  
+  //certificate-slider
+
+  const swiper1 = new Swiper(".certificate-slider", {
+    spaceBetween: 50,
+    slidesPerView: '3',    
+    speed:3000,
+    spaceBetween: 10,
+    // loop:true,
+    // autoplay: {
+    //   delay: 0,
+    //   disableOnInteraction: false,
+    // },
+
+  });
   // Odometer JS
 	// $(".odometer").each((function(t){$(".odometer").each((function(){var t=$(this).attr("data-count");$(this).html(t)}))}));
 

@@ -3,7 +3,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="col-lg-5 col-md-6 col-sm-12">
         <div class="footer-widget mt-4">
           <h5 class="text-white mb-3 pb-3 footer-widget-title  position-relative">RDM Certification Services </h5>
           <p class="text-white pe-lg-5 pe-0">Research & Development Management Certification Services gives value added
@@ -41,10 +41,7 @@
           </ul>
         </div>
       </div>
-
-
-
-      <div class="col-lg-3 col-md-6 ">
+      <div class="col-lg-4 col-md-6 ">
         <div class="footer-widget mt-4">
           <h5 class="text-white mb-3  pb-3 footer-widget-title position-relative">Get in touch</h5>
           <ul class="get-in-ul">
@@ -76,7 +73,8 @@
 <script src="assets/js/wow/wow.min.js"></script>
 <script src="assets/js/swiper/swiper-bundle.min.js"></script>
 <script src="assets/js/odometer/odometer.min.js"></script>
-<script>              $(document).ready(function() {
+<script>            
+  $(document).ready(function() {
             $(".odometer").each(function() {
                 var count = $(this).attr("data-count");
                 $(this).html(count);

@@ -53,36 +53,36 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>              
+              <a class="nav-link" href="./">Home</a>              
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="franchise.php">About Us</a>
+              <a class="nav-link" href="about.php">About Us</a>
             </li>
             <li class="nav-item menu-item-has-children">
               <a class="nav-link" href="#">Services <i class="ri-arrow-down-s-line"></i></a>
               <ul class="sub-menu">
-                <li><a href="offline-courses.php">Certificates</a></li>
-                <li><a href="online-courses.php">IT Services</a></li>
+                <li><a href="#">Certificates</a></li>
+                <li><a href="#">IT Services</a></li>
               </ul>
             </li>
             <li class="nav-item menu-item-has-children">
               <a class="nav-link" href="#">Download <i class="ri-arrow-down-s-line"></i></a>
               <ul class="sub-menu">
-                <li><a href="">Application Form</a></li>
-                <li><a href="">Rules for Multi-site Organisation</a></li>
-                <li><a href="">Certification Agreement Rules</a></li>
-                <li><a href="">Logo Guidleines</a></li>
-                <li><a href="">Quotation Form</a></li>
+                <li><a href="https://rdmcertification.com/wp-content/uploads/2022/01/Application-Form.pdf" target="_blank">Application Form</a></li>
+                <li><a href="https://rdmcertification.com/wp-content/uploads/2021/12/Rules-and-regulations-for-multi.pdf">Rules for Multi-site Organisation</a></li>
+                <li><a href="https://rdmcertification.com/wp-content/uploads/2021/12/Certification-Agreement-Rules.pdf" target="_blank">Certification Agreement Rules</a></li>
+                <li><a href="https://rdmcertification.com/wp-content/uploads/2021/12/Logo-Guidleines.pdf" target="_blank">Logo Guidleines</a></li>
+                <li><a href="https://rdmcertification.com/wp-content/uploads/2021/12/Quotation-Form.pdf" target="_blank">Quotation Form</a></li>
               </ul>
             </li>
             
             
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Onilne Application</a>
+              <a class="nav-link" href="online-application.php">Onilne Application</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Career</a>
+              <a class="nav-link" href="career.php">Career</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact Us</a>
@@ -100,7 +100,7 @@
           <ul class="mobile-menu-list">
             <li><a href="./" class="menu-link">Home</a></li>
      
-            <li><a href="franchise.php" class="menu-link">About Us</a></li>
+            <li><a href="about.php" class="menu-link">About Us</a></li>
             <li><a role="button" class="menu-link moblie-dropdwon">Services <i class="ri-arrow-down-s-line"></i></a>
               <div class="dropdown-mb-menu">
                 <ul>
@@ -113,15 +113,16 @@
             <li><a role="button" class="menu-link moblie-dropdwon">Download <i class="ri-arrow-down-s-line"></i></a>
             <div class="dropdown-mb-menu">
             <ul>
-                <li><a href="">Rules for Multi-site Organisation</a></li>
-                <li><a href="">Certification Agreement Rules</a></li>
-                <li><a href="">Logo Guidleines</a></li>
-                <li><a href="">Quotation Form</a></li>
+                <li><a href="https://rdmcertification.com/wp-content/uploads/2022/01/Application-Form.pdf" target="_blank">Rules for Multi-site Organisation</a></li>
+                <li><a href="" target="_blank">Rules for Multi-site Organisation</a></li>
+                <li><a href="" target="_blank">Certification Agreement Rules</a></li>
+                <li><a href="" target="_blank">Logo Guidleines</a></li>
+                <li><a href="" target="_blank">Quotation Form</a></li>
                 </ul>
               </div>
           </li>
             <li><a href="#" class="menu-link">Online Application</a></li>
-            <li><a href="contact.php" class="menu-link">Career</a></li>
+            <li><a href="career.php" class="menu-link">Career</a></li>
             <li><a href="contact.php" class="menu-link">Contact Us</a></li>
           </ul>
 

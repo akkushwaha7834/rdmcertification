@@ -5,7 +5,7 @@
     --theme-primary: #022f8c;
     --theme-secondary: #e8e8e8;
     --theme-text: #494949;
-    --theme-bg-light: #fff;
+    --theme-bg-light: #f3f8ff;
 }
 
 /*** 
@@ -54,6 +54,9 @@ h2 {
 h3 {
     font-size: 1.8rem;
 }
+h4{
+    text-transform: capitalize;
+}
 
 h1,
 h2,
@@ -66,8 +69,8 @@ h6 {
 }
 
 label {
-    font-weight: 600;
-    color: var(--theme-primary);
+    font-weight: 500;
+    color: #212121;
     margin-bottom: 10px;
 }
 
@@ -80,7 +83,9 @@ textarea {
     font-size: 16px;
     background: transparent;
 }
-
+.box-shadow{
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 17%)!important;
+}
 .form-control:focus {
     color: var(--theme-text);
     background-color: #fff;
@@ -110,13 +115,28 @@ input {
 .container-fluid {
     width: 95%;
 }
-
+textarea.form-control, select.form-control{
+    outline: none;
+    background-color: #fff;
+    height: 56px;
+    width: 100%;
+    
+    font-size: 16px;
+    color: var(--theme-text);
+    padding-left: 26px;
+    padding-right: 26px; 
+    border: 1px solid #e0e2e3;
+    border-radius:0.375rem;
+}
 button:focus,
 input:focus,
 textarea:focus {
     outline: none;
     box-shadow: none;
     transition: all 500ms ease;
+}
+input::placeholder , textarea::placeholder{
+    color: var(--theme-text)!important;
 }
 input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], textarea {
     outline: none;
@@ -129,6 +149,7 @@ input[type=email], input[type=number], input[type=password], input[type=tel], in
     padding-left: 26px;
     padding-right: 26px; 
     border: 1px solid #e0e2e3;
+    border-radius:0.375rem;
 }
 p {
     margin-bottom: 15px;
@@ -148,7 +169,9 @@ p {
 .border-color {
     border-color: var(--theme-primary)
 }
-
+.line-height-0{
+    line-height: 0;
+}
 .bg-dark {
     background-color: var(--theme-primary) !important;
 }
@@ -325,12 +348,11 @@ p {
 }
 
 .sub-menu {
-    background: var(--bs-white) none repeat scroll 0 0;
-    border-top: 3px solid var(--theme-primary);
+    background:  var(--theme-primary) none repeat scroll 0 0;
+   
     box-shadow: 0 6px 12px #0000002d;
     left: 0;
     opacity: 0;
-
     position: absolute;
     text-align: left;
     top: 100%;
@@ -349,14 +371,16 @@ p {
 .sub-menu li a {
     padding: 0.5rem 0.5rem;
     display: block;
-    border-bottom: 1px solid var(--theme-primary);
-    color: var(--theme-primary);
+    border-bottom: 1px solid #4465a9;
+    color: #ffffff;
     font-size: 17px;
     font-weight: 500;
 }
 
 .sub-menu li a:hover {
-    color: var(--theme-primary);
+    color: #ffffff;
+    background:#002572;
+ 
 }
 
 .mobile-menu-toggle {
@@ -719,7 +743,92 @@ p {
     background-color: #022f8c;
     
 } */
+/* =================
+About Us Page
+================== */
+.overlay-left::after{
+    background: linear-gradient(to left, #00000075, #020e25);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.breadcrumb-overlay::after{
+    background: radial-gradient(#0000004f, #06173a);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: #fff;
+    content:'\f2e5';
+    font-family: remixicon !important;
+}
+.border-radius-1{
+border-radius: 1rem;
+}
+.box-style-2{
 
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 5px 1px rgb(137 137 137 / 60%);
+
+}
+.certificates-box {
+    background: #ffff;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 17%);
+    padding: 20px;
+    border-radius: 1rem;
+}
+.certificates-box h3{
+    color: #000;
+    font-weight: 600;
+}
+.certificates-box img{
+    max-width: 80px!important;
+    margin-bottom: 20px;
+}
+.certificates-box {
+ text-transform: capitalize;
+    font-weight: 500;
+}
+.certificate-slider .swiper-slide{
+    height: 100%;
+}
+/* ==================
+contact us
+===================== */
+.pointer-style li span i {
+    background: var(--theme-primary);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+.contact-d {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--theme-text);
+}
+.contact-d:hover {
+    color: var(--theme-primary);
+}
+/* =========================
+Resposnive design
+============================ */
 
 @media(min-width:992px) {
     .mobile-menu-toggle {
