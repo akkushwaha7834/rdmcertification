@@ -23,8 +23,7 @@
 <section class="section-space theme-bg-light position-relative">
     <div class="container position-relative z-1">
         <div class="row">
-            <div class="col-md-12">
-                
+            <div class="col-md-12">                
                     <div class="row">
                         <div class="col-lg-5">
                             <ul class="pointer-style mt-5">

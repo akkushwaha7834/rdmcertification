@@ -291,7 +291,7 @@ p {
 }
 
 .navbar-brand img {
-    max-width: 185px
+    max-width: 160px
 }
 
 .navbar-nav .nav-link {
@@ -322,7 +322,7 @@ p {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 2.5rem 1.5rem 2.5rem 0px;
+    padding: 1.8rem 1.5rem 1.8rem 0px;
     font-size: 1.2rem;
     color: #474555;
 }
@@ -800,9 +800,14 @@ border-radius: 1rem;
 .certificates-box {
  text-transform: capitalize;
     font-weight: 500;
+    height: 100%;
 }
 .certificate-slider .swiper-slide{
     height: 100%;
+}
+.certificates-box h3 a:hover{
+color: var(--theme-primary);
+text-decoration: underline;
 }
 /* ==================
 contact us
@@ -826,6 +831,17 @@ contact us
 .contact-d:hover {
     color: var(--theme-primary);
 }
+/* =========================
+Careers page
+============================ */
+.career-p li{
+    font-size: 19.2px!important;
+}
+.upload{
+    line-height: 55px;
+    padding: 0 10px;
+}
+
 /* =========================
 Resposnive design
 ============================ */
