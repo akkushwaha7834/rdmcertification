@@ -52,7 +52,8 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 h4{
     text-transform: capitalize;
@@ -888,6 +889,115 @@ Careers page
 }
 .certificate-pointers li{
     list-style: disc;
+}
+/* =========================
+Service Details page
+============================ */
+ .single-sidebar-widget {
+    background-color: var(--theme-bg-light);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.single-sidebar-widget .service-category {
+    margin-top: 30px;
+}
+.single-sidebar-widget .service-category a {
+    position: relative;
+    display: inline-block;
+    padding: 16px 20px;
+    background-color: var(--bs-white);
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 10px;
+    z-index: 9;
+}
+.single-sidebar-widget .service-category a:hover{
+    color: var(--theme-primary);
+}
+.service-category a.active , .service-category a.active:hover{
+    background: var(--theme-primary);
+    color: #fff;
+}
+.feature-sevice-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.sticky-sec {
+    position: sticky;
+    top: 120px;
+}
+.feature-info-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 90px;
+    position: relative;
+}
+.feature-info-item:before {
+    position: absolute;
+    top: 0;
+    content: "";
+    left: 38px;
+    height: 100%;
+    width: 2px;
+    background: #f6f6f6;
+}
+.feature-info-number span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ef3139;
+    color: var(--theme-primary);
+    font-size: 24px;
+    width: 74px;
+    height: 74px;
+    margin-right: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: relative;
+    background: #f6f6f6;
+}
+.feature-info-number span:after,  .feature-info-number span {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.feature-info-number span:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(246, 246, 246, 0);
+    border-left-color: #f6f6f6;
+    border-width: 6px;
+    margin-top: -6px;
+    margin-left: -1px;
+}
+.feature-info-content {
+    margin-top: 28px;
+}
+.feature-info-item:last-child {
+    padding-bottom: 0;
+}
+.feature-info-item:last-child::before {
+display: none;
+}
+.feature-info-item:hover .feature-info-number span {
+    background: #ef3139;
+    color: #ffffff;
+}
+.feature-info-item:hover .feature-info-number span:after {
+    border-left-color: #ef3139;
 }
 /* =========================
 Resposnive design
