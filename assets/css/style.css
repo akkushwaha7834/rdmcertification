@@ -622,7 +622,7 @@ p {
 .boxes-wrap {
     box-shadow: 0 0 10px #00000024;
     padding: 25px;
-    transition: width .2s ease-in-out, margin .2s ease-in-out, transform .75s ease;
+    transition: all  0.4s ease-in-out;
     height: 100%;
     color: var(--theme-text);
     border-radius: 0.5rem;

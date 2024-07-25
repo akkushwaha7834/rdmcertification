@@ -54,9 +54,28 @@
                 <a href="it-service-single.php" class="btn-round mt-4 text-dark"> Read More <i
                                                     class="ri-arrow-right-line"></i> </a>
             </div>
-            <div class="col-md-6 px-0 h-100 bg-image" style="background-image:url('');">
-               <img src="assets/images/it-services.webp" alt="" class="w-100">
+            <div class="col-md-6 py-5 px-lg-5  h-100 bg-dark">
+                <img src="assets/images/graphic-design.png" alt="" class="mb-4">
+                <h3 class="text-white">Graphic Designing</h3>
+                <p class="text-white">We offer professional website design services at affordable rates to help your business attract more visitors and keep them on your site! More than beautiful design, we build websites with a complete strategy designed to turn your site visitors into customers.</p>
+                <a href="it-service-single.php" class="btn-round mt-4"> Read More <i
+                                                    class="ri-arrow-right-line"></i> </a>
                 
+            </div>
+            <div class="col-md-6 py-5 px-lg-5  h-100 bg-dark">
+                <img src="assets/images/app.png" alt="" class="mb-4">
+                <h3 class="text-white">App Development</h3>
+                <p class="text-white">We offer professional website design services at affordable rates to help your business attract more visitors and keep them on your site! More than beautiful design, we build websites with a complete strategy designed to turn your site visitors into customers.</p>
+                <a href="it-service-single.php" class="btn-round mt-4"> Read More <i
+                                                    class="ri-arrow-right-line"></i> </a>
+                
+            </div>
+            <div class="col-md-6 py-5 px-lg-5  h-100 theme-bg-light">
+            <img src="assets/images/seo.png" alt="" class="mb-4">
+                <h3>Search Engine Optimization</h3>
+                <p>A combination of web marketing services, can help your business achieve extraordinary growth. With digital marketing, your business can expand into new areas, hire additional team members, and achieve tremendous accomplishments in your industry.</p>
+                <a href="it-service-single.php" class="btn-round text-dark mt-4"> Read More <i
+                                                    class="ri-arrow-right-line"></i> </a>
             </div>
             
         </div>
