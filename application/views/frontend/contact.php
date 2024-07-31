@@ -63,24 +63,24 @@
                         <div class="form-wrapper py-5">
                             <h2 class="h1 text-dark">Leave a Message</h2>
                             <p>We’re Ready To Help You</p>
-                    <form action="">
+                            <?php echo form_open('contact/submit'); ?>
                         <div class="row g-4">
                             <div class="col-md-12">
-                                <input type="text" placeholder=" Name" class="form-control">
+                                <input type="text" name="name" placeholder=" Name" class="form-control">
                             </div>
                        
                             <div class="col-md-12">
-                                <input type="email" placeholder="Email" class="form-control">
+                                <input type="email" name="email" placeholder="Email" class="form-control">
                             </div>
                             <div class="col-md-12">
-                                <input type="text" placeholder="Subject" class="form-control">
+                                <input type="text" name="subject" placeholder="Subject" class="form-control">
                             </div>
                             <div class="col-md-12">
-                               <textarea name="" id="" row="3" placeholder="Message" class="h-auto form-control"></textarea>
+                               <textarea name="" id="" row="3" name="message" placeholder="Message" class="h-auto form-control"></textarea>
                             </div>
                            
-                            <div class="col-md-12">
-                            <button class="default-btn border-0 ">Submit</button>
+                            <div class="col-md-6">
+                            <input class="default-btn border-0" name="submit" value="Send">
                             </div>
                         </div>
                     </form>

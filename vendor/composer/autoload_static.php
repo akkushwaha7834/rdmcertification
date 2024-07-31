@@ -12,6 +12,10 @@ class ComposerStaticInit98fb79ca8fb4714e2afeaf57357645df
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'Twilio\\' => 7,
+        ),
         'P' => 
         array (
             'PhpParser\\' => 10,
@@ -25,6 +29,10 @@ class ComposerStaticInit98fb79ca8fb4714e2afeaf57357645df
     );
 
     public static $prefixDirsPsr4 = array (
+        'Twilio\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twilio/sdk/src/Twilio',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',

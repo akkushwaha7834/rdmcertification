@@ -3,7 +3,7 @@
         'name' => 'codeigniter/framework',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'faef9e0b7e5356488efbfc5dd3d813eebe014d7c',
+        'reference' => '1f8ec1294f07eec75300b992a1980ba2fb2aa45f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'codeigniter/framework' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'faef9e0b7e5356488efbfc5dd3d813eebe014d7c',
+            'reference' => '1f8ec1294f07eec75300b992a1980ba2fb2aa45f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -288,6 +288,15 @@
             'install_path' => __DIR__ . '/../theseer/tokenizer',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'twilio/sdk' => array(
+            'pretty_version' => '8.2.2',
+            'version' => '8.2.2.0',
+            'reference' => '10dbd6ecbc6ac1e0c61ab7d70c44e0794f8d3a1f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twilio/sdk',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
     ),
 );
